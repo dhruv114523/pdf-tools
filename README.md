@@ -6,6 +6,14 @@ service.
 
 ## What it does
 
+### PDF page reorderer
+
+Run `pdf_reorder.py` to rearrange pages in an existing PDF. Preview pages and
+select one or more pages to move up, down, to the beginning, or to the end. You
+can also reverse the entire page order or reset it. Save the reordered PDF as a
+new file; pages are rearranged without rasterizing them, preserving their
+original content and quality. Password-protected PDFs are not supported.
+
 ### PDF & image merger
 
 Run `merge.py` to open the merger. Add PDFs and images, arrange their order,
@@ -39,6 +47,10 @@ python -m pip install PyMuPDF Pillow pypdf
 ## Run
 
 Start either tool from a terminal in this directory:
+
+```bash
+python pdf_reorder.py
+```
 
 ```bash
 python merge.py
