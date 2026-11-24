@@ -53,3 +53,7 @@ python pdf_compressor.py
 This project is 100% AI-generated, made for me and for anyone else who might
 find it useful. I wanted a straightforward way to handle PDFs without having
 to upload personal documents to a sketchy website.
+
+## License
+
+This project is distributed under the MIT License. See [LICENSE](LICENSE).
